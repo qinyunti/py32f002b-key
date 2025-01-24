@@ -1,0 +1,1126 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x678F3070)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/main.o -MMD)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (key.h)(0x678E0692)
+I (uart.h)(0x678F174C)
+F (.\py32f002b_it.c)(0x678BC8CB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_it.o -MMD)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (py32f002b_it.h)(0x678A6E1A)
+F (.\py32f002b_OPT.s)(0x678BCECB)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/py32f002b_opt.o)
+F (.\pcf8574.c)(0x678E0692)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/pcf8574.o -MMD)
+I (pcf8574.h)(0x678E04B0)
+F (.\pcf8574.h)(0x678E04B0)()
+F (.\io_iic.c)(0x678E04F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/io_iic.o -MMD)
+I (io_iic.h)(0x678E04F6)
+F (.\io_iic.h)(0x678E04F6)()
+F (.\key.c)(0x678F0D7F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/key.o -MMD)
+I (io_iic.h)(0x678E04F6)
+I (pcf8574.h)(0x678E04B0)
+I (key.h)(0x678E0692)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\key.h)(0x678E0692)()
+F (.\uart.c)(0x678F2F58)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/uart.o -MMD)
+I (uart.h)(0x678F174C)
+I (fifo.h)(0x6767B95B)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_usart.h)(0x64A28B05)
+F (.\uart.h)(0x678F174C)()
+F (.\fifo.c)(0x6767B950)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/fifo.o -MMD)
+I (fifo.h)(0x6767B95B)
+F (.\fifo.h)(0x6767B95B)()
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_adc.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_adc.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_comp.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_comp.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_cortex.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_cortex.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_crc.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_crc.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_exti.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_exti.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_flash.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_flash.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_gpio.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_gpio.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_i2c.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_i2c.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_iwdg.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_iwdg.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_lptim.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_lptim.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_pwr.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_pwr.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_rcc.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc_ex.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_rcc_ex.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_spi.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_spi.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_tim.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_tim.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_tim_ex.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_tim_ex.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_uart.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_uart.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_hal_usart.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_hal_usart.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_adc.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_adc.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_adc.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_comp.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_comp.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_comp.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_crc.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_crc.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_crc.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_exti.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_exti.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_gpio.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_gpio.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_gpio.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_i2c.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_i2c.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_i2c.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_lptim.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_lptim.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_lptim.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_pwr.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_pwr.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_pwr.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_rcc.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_rcc.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_spi.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_spi.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_spi.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_tim.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_tim.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_tim.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_usart.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_usart.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_usart.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Src\py32f002b_ll_utils.c)(0x64A28B05)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_utils.o -MMD)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_utils.h)(0x64A28B05)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_system.h)(0x64A28B05)
+F (.\PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_adc.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_bus.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_comp.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_cortex.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_crc.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_gpio.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_i2c.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_iwdg.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_lptim.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_pwr.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_rcc.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_spi.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_system.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_tim.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_usart.h)(0x64A28B05)()
+F (.\PY32F002B_HAL_Driver\Inc\py32f002b_ll_utils.h)(0x64A28B05)()
+F (RTE/Device/PY32F002Bx5/startup_py32f002bx5.s)(0x678A6E1A)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_py32f002bx5.o)
+F (RTE/Device/PY32F002Bx5/system_py32f002b.c)(0x678A6E1A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./PY32F002B_HAL_Driver/Inc -I ../prj-I./RTE/_Target_1-ID:/Keil_v5/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Keil_v5/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="540" -D_RTE_ -DPY32F002Bx5 -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER-o ./objects/system_py32f002b.o -MMD)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x678A6E1A)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x678A6E19)
+I (D:\Keil_v5\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664BD888)
+I (D:\Keil_v5\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f0xx_hal.h)(0x64A28B05)
+I (..\prj\py32f002b_hal_conf.h)(0x678A6E1A)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_def.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_rcc_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_gpio_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_cortex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_adc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_crc.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_comp.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_ll_exti.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_flash.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_i2c.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_iwdg.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_pwr.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_spi.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_tim_ex.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_lptim.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_uart.h)(0x64A28B05)
+I (PY32F002B_HAL_Driver\Inc\py32f002b_hal_usart.h)(0x64A28B05)
