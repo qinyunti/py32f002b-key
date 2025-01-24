@@ -27,7 +27,7 @@ void uart_rx_cb(uint8_t* buff, uint32_t len)
 	fifo_in(&s_uart_fifo_dev, buff, len);
 }
 
-void USART1_Handler(void)
+void USART1_IRQHandler(void)
 {
 	uint8_t ch;
 	ch = LL_USART_ReceiveData8(USART1);
