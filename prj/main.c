@@ -8,14 +8,30 @@
 void led_init(void){
   GPIO_InitTypeDef  GPIO_InitStruct;
 
-  __HAL_RCC_GPIOC_CLK_ENABLE();                          /* Enable GPIOA clock */
+  __HAL_RCC_GPIOC_CLK_ENABLE();                          /* Enable GPIOC clock */
 
   GPIO_InitStruct.Pin = GPIO_PIN_0;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;            /* Push-pull output */
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;            /* Push-pull output */
   GPIO_InitStruct.Pull = GPIO_PULLUP;                    /* Enable pull-up */
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;          /* GPIO speed */  
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;          /* GPIO speed */  
   /* GPIO initialization */
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);  
+}
+
+
+void pwron_init(void){
+  GPIO_InitTypeDef  GPIO_InitStruct;
+
+  __HAL_RCC_GPIOA_CLK_ENABLE();                          /* Enable GPIOA clock */
+
+  GPIO_InitStruct.Pin = GPIO_PIN_3;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;            /* Push-pull output */
+  GPIO_InitStruct.Pull = GPIO_PULLUP;                    /* Enable pull-up */
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;          /* GPIO speed */  
+  /* GPIO initialization */
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);  
+	
+	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,1);
 }
 
 
@@ -42,9 +58,12 @@ int main(void){
 	
 	  uint8_t key_now;
 	
+	  static int pwroff_time = 0;
+	
 	  HAL_Init();
 	  HAL_Delay(1000);
 	  led_init();
+	  pwron_init();
 		key_init();
 		uart_init(115200);
 	
@@ -67,6 +86,17 @@ int main(void){
 			if(diff_u32(key_pre_ts, key_cur_ts) >= KEY_PERIOD){
 				key_pre_ts = key_cur_ts;
 				key_read(&key_now);
+				
+				/* P3 长按关机 */
+				if((key_now & 0x08)== 0){
+					pwroff_time++;
+					if(pwroff_time >= 2000/KEY_PERIOD){
+						HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,0);
+						while(1);
+					}
+				}else{
+					pwroff_time = 0;
+				}
 				s_key_buf[2] = key_now;
 				s_key_buf[3] = ~key_now;
 				uart_send(s_key_buf,sizeof(s_key_buf));
